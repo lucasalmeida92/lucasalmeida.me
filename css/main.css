@@ -80,10 +80,10 @@ body * {
     background-color: rgba(255,255,255,0.9);
 }
 h1 {
- font-size: 50px;
- font-weight: 800;
- margin-bottom: 10px;
- line-height: 45px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 45px;
 }
 h2 {
     font-size: 20px;
@@ -102,7 +102,9 @@ h2 {
     width: 130px;
     border: 4px solid #222;
 }
-
+#contacts {
+    margin-top: 30px;
+}
 #contacts li {
     display: inline-block;
     margin: 7px;
@@ -112,4 +114,18 @@ h2 {
 }
 #contacts li a:hover i {
     color: #E84444;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    #contacts li {
+        display: block;
+        margin: 12px;
+    }
 }
